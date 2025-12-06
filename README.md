@@ -34,21 +34,21 @@ API completa para CRUD (Create, Read, Update, Delete) de empresas e seus funcion
 ## 📁 Estrutura do Projeto
 
 ApiEmpresas/
-├── Controllers/ # Controladores da API
-│ ├── EmpresasController.cs
-│ └── FuncionariosController.cs
-├── Models/ # Modelos de dados
-│ ├── Empresa.cs
-│ └── Funcionario.cs
-├── Data/ # Contexto do banco
-│ └── AppDbContext.cs
-├── Repositories/ # Padrão Repository
-│ ├── IRepository.cs
-│ └── Repository.cs
-├── Migrations/ # Migrações do EF Core
-├── Program.cs # Ponto de entrada
-├── appsettings.json # Configurações
-└── README.md # Este arquivo
+- ├── Controllers/ # Controladores da API
+- │ ├── EmpresasController.cs
+- │ └── FuncionariosController.cs
+- ├── Models/ # Modelos de dados
+- │ ├── Empresa.cs
+- │ └── Funcionario.cs
+- ├── Data/ # Contexto do banco
+- │ └── AppDbContext.cs
+- ├── Repositories/ # Padrão Repository
+- │ ├── IRepository.cs
+- │ └── Repository.cs
+- ├── Migrations/ # Migrações do EF Core
+- ├── Program.cs # Ponto de entrada
+- ├── appsettings.json # Configurações
+- └── README.md # Este arquivo
 
 ## ⚙️ Pré-requisitos
 - [.NET SDK 8.0+](https://dotnet.microsoft.com/download/dotnet/8.0)
