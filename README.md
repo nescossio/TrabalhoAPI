@@ -60,8 +60,7 @@ ApiEmpresas/
 
 ### 1. Clonar o repositório
 
-- git clone https://github.com/seuusuario/api-empresas.git
-- cd api-empresas
+- git clone https://github.com/nescossio/TrabalhoAPI.git
 
 ### 2. Configurar banco de dados
 
@@ -105,25 +104,25 @@ http://localhost:5004/swagger/v1/swagger.json
 # Empresas
 
 Métodos	
-GET /api/Empresas - Lista todas empresas
-GET	/api/Empresas/{id} - Obtém empresa por ID
-POST /api/Empresas - Cria nova empresa
-PUT	/api/Empresas/{id} - Atualiza empresa
-DELETE	/api/Empresas/{id} - Exclui empresa
-GET	/api/Empresas/{id}/funcionarios	Lista funcionários da empresa
+- GET /api/Empresas - Lista todas empresas
+- GET	/api/Empresas/{id} - Obtém empresa por ID
+- POST /api/Empresas - Cria nova empresa
+- PUT	/api/Empresas/{id} - Atualiza empresa
+- DELETE	/api/Empresas/{id} - Exclui empresa
+- GET	/api/Empresas/{id}/funcionarios	Lista funcionários da empresa
 
 # Funcionários
 Métodos
-GET	/api/Funcionarios - Lista todos funcionários
-GET	/api/Funcionarios/{id} - Obtém funcionário por ID
-POST /api/Funcionarios - Cria novo funcionário
-PUT	/api/Funcionarios/{id} - Atualiza funcionário
-DELETE /api/Funcionarios/{id} - Exclui funcionário
-GET	/api/Funcionarios/empresa/{empresaId} - Lista funcionários por empresa
+- GET	/api/Funcionarios - Lista todos funcionários
+- GET	/api/Funcionarios/{id} - Obtém funcionário por ID
+- POST /api/Funcionarios - Cria novo funcionário
+- PUT	/api/Funcionarios/{id} - Atualiza funcionário
+- DELETE /api/Funcionarios/{id} - Exclui funcionário
+- GET	/api/Funcionarios/empresa/{empresaId} - Lista funcionários por empresa
 
 ### 👨‍🎓 Informações do Aluno
-Nome: Nathalia Escossio Cavalcante
-RU: 4888825
-Disciplina: Arquitetura e Desenvolvimento de APIs
-Professores: Rodrigo da S. do Nascimento, Osmar T. P. D. Junior
-Instituição: UNINTER
+- Nome: Nathalia Escossio Cavalcante
+- RU: 4888825
+- Disciplina: Arquitetura e Desenvolvimento de APIs
+- Professores: Rodrigo da S. do Nascimento, Osmar T. P. D. Junior
+- Instituição: UNINTER
